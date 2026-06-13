@@ -16,7 +16,7 @@ class Calculadora
         $this->n2 = $n2;
     }
 
-    public function calcular($op)
+    public function calcular(string $op)
     {
         switch ($op) {
             case '+':
