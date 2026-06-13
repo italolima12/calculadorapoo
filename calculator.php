@@ -6,10 +6,11 @@ $op = $_POST['operation'];
 
 class Calculadora
 {
-    private $n1;
-    private $n2;
+    private float $n1;
+    private float $n2;
+    private string $op;
 
-    public function __construct($n1, $n2)
+    public function __construct(float $n1, float $n2)
     {
         $this->n1 = $n1;
         $this->n2 = $n2;
